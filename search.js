@@ -31,12 +31,12 @@ function displayOptions() {
   const html = options
     .map((station) => {
       const regex = new RegExp(this.value, "gi");
-      const productName = station.name.replace(
+      const ProductnName = station.name.replace(
         regex,
         ` <innerText class="h1">${this.value}</innerText>`
       );
 
-      return `<li>${productName}</li>`;
+      return `<li>${ProductnName}</li>`;
     })
     .slice(0, 10)
     .join("");
