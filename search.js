@@ -1,4 +1,4 @@
-const api = `https://raw.githubusercontent.com/NatShulga/Product-shop.json/main/Product%20shop.json`;
+const api = `https://raw.githubusercontent.com/NatShulga/Product-shop.json/main/Product-shop.json`;
 
 const stations = [];
 
